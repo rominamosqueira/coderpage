@@ -10,9 +10,7 @@ ul{
     text-align: center;
     text-transform: capitalize;
     display: flex;
-    
-    
- } 
+} 
  
 
 li{
@@ -40,7 +38,7 @@ a {
    text-decoration: none;
 }
 .index{
-    background: rgb(209, 145, 196);
+    background: rgb(209, 145, 196); 
     display:flex;
     align-items: center;
     height: 180px;
@@ -48,19 +46,23 @@ a {
     }
 .imagenlogo {
    position: static;
+   width: 20%;
+  
 }
-
+.fin {
+   width: 100%;
+   color: black;
+   font-family: sans-serif;
+}
 
    
 /*footer*/
    
 .foot {
     display: flex;
-    flex-direction: row-reverse    
+    flex-direction: row-reverse 
 }
-  
-
-  
+   
 body {
     color: #006064;
     font-family: monospace;
@@ -119,9 +121,9 @@ a:hover{
 }
 .float{
 	position:fixed;
-    width:50px;
+    width:60px;
     height:50px;
-    bottom: 10px;
+    bottom: 30px;
     right:40px;
     color: #079e3e;
     text-align:center;
@@ -132,6 +134,8 @@ a:hover{
 .my-float{
 	margin-top:16px;
 }
+
+
 .buttons a{
     text-decoration: none;
     font-size: 28px;
@@ -167,6 +171,12 @@ a:hover{
     height: 200px;
     margin: 1px 1px 1px 1px;  
 }
+
+.class-flex{
+    text-align: center;
+}
+
+
 
 /*página de fotos*/
 
@@ -210,7 +220,7 @@ a:hover{
     padding: 30px 30px;
     margin: 20px 0px 0px 100px;
 }
-.center{
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
