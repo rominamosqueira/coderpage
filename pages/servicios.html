@@ -1,48 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css" />
-    <title>ro mosqueira medios digitales / servicios</title>
-</head>
-    <header>
-        <body id="body-imagen">
-            <nav id="paginas">
-                <ul class="padre-flex">
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="contacto.html">contacto</a></li>
-                    <li><a href="nosotros.html">nosotros</a></li> 
-                    <li><a href="fotos.html">fotos</a></li>    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <!--bootstrap css-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style/style.css" />
+        <title>Ro Mosqueira Medios Digitales / Servicios</title>
+    </head>
+    <body background="../imagenes/paginas.png">
+        <header>
+          <nav class="navbar navbar-expand-md bg-pink">
+            <div class="container-fluid">
+              <a href="../index.html" class="navbar-brand">
+                <img src="../imagenes/logo.png" alt="logo" width="200px" height="200px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html"><b>Inicio</b></a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./fotos.html"><b>Fotos<b></a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html"><b>Nosotros</b></a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a></li>
                 </ul>
+                <hr class="d-nd-none text-white-50">
+                <section class="buttons">
+                  <a href="https://www.facebook.com/profile.php?id=100071611844298" class="fa fa-facebook" target="_blank"></a>
+                  <a href="https://www.linkedin.com/learning/" class="fa fa-linkedin" target="_blank"></a>
+                  <a href="https://www.instagram.com/?hl=es-la" class="fa fa-instagram" target="_blank"></a>
+                </section>
+              </div>
+            </div>
+          </nav>
                 <hr>
-            </nav> 
-                <div class="servicio" >
-                    <h2 class="servicio1">E-marketing</h2>
-                    <br>
-                        <p>Desarrollamos las estrategias de marketing para internet en todas sus versiones, contemplando las necesidades del cliente.</p>
-                </div>     
-                <div class="servicio" >
-                    <h2 class="servicio1">Gestión de Redes Sociales</h2>
-                    <br>
-                        <p>Toda tu presencia digital gestionada de forma unificada y coherente. Diseñamos y gestionamos tu Web o E-commerce, publicidad en Facebook y Twitter.</p>
-                </div> 
-                <div class="servicio" >
-                    <h2 class="servicio1">Haz que tu Empresa crezca Publicitando en Google Ads</h2>
-                    <br>
-                        <p>Adquiere visibilidad ante los clientes cuando éstos busquen comercios como el tuyo mediante la búsqueda de Google y en Maps. Sólo paga por los resultados que obtengas, como clics que dirigen a tu sitio web o llamadas realizadas a tu comercio.</p>
-                </div> 
-                <div class="servicio" >
-                    <h2 class="servicio1">Le damos Identidad a tu Marca</h2>
-                    <br>
-                        <p>Rediseñamos tu logo o lo creamos desde cero. Una buena imagen de marca es lo primero.</p>
+                <h1>Nuestros servicios</h1>
+                <hr>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../imagenes/img1.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">E-marketing</h5>
+                          <p class="card-text">Desarrollamos las estrategias de marketing para internet en todas sus versiones, contemplando las necesidades del cliente.</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <hr> 
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="../imagenes/img2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gestión de Redes Sociales</h5>
+                        <p class="card-text">Toda tu presencia digital gestionada de forma unificada y coherente. Diseñamos y gestionamos tu Web o E-commerce, publicidad en Facebook y Twitter.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </header>
+                <hr>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../imagenes/img3.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Haz que tu Empresa crezca Publicitando en Google Ads</h5>
+                          <p class="card-text">Adquiere visibilidad ante los clientes cuando éstos busquen comercios como el tuyo mediante la búsqueda de Google y en Maps. Sólo paga por los resultados que obtengas, como clics que dirigen a tu sitio web o llamadas realizadas a tu comercio.</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <hr>  
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../imagenes/img4.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Le damos Identidad a tu Marca</h5>
+                          <p class="card-text">Rediseñamos tu logo o lo creamos desde cero. Una buena imagen de marca es lo primero.</p>
+                          <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <hr>
+          </header>
         <footer class="foot">
             <nav>
                 <ul>
-                    <li> <a href="#">Conoce más </a></li>
+                    <li class="nav_footer"> 
+                      <a href="#" class="btn btn-primary">Conoce más sobre nuestros servicios </a>
+                    </li>
                 </ul>
             </nav>
         </footer>
