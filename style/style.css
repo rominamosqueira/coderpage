@@ -135,7 +135,7 @@ a:hover {
   color: rgb(209, 145, 196);
 }
 
-div {
+.navbar {
   overflow-y: scroll;
 }
 
