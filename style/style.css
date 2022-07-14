@@ -226,7 +226,7 @@ h4 {
 
 /*servicios*/
 .row {
-  margin-left: 110px;
+  overflow-y: scroll;
   text-align: center;
 }
 
