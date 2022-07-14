@@ -135,6 +135,10 @@ a:hover {
   color: rgb(209, 145, 196);
 }
 
+div {
+  overflow-y: scroll;
+}
+
 /*página de fotos*/
 .grid-container {
   display: grid;
