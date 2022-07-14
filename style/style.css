@@ -5,6 +5,14 @@
   font-family: sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
 /*index*/
 ul {
   text-align: center;
@@ -133,10 +141,6 @@ textarea {
 
 a:hover {
   color: rgb(209, 145, 196);
-}
-
-.navbar {
-  overflow-y: scroll;
 }
 
 /*página de fotos*/

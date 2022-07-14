@@ -3,6 +3,12 @@
   padding: 0;
   font-family: sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
+html{
+  overflow-x: hidden;
+}
 
 /*index*/
 
@@ -124,9 +130,6 @@ textarea{
 
 a:hover{
   color: rgb(209, 145, 196);
-}
-.navbar{
-  overflow-y: scroll;
 }
 
 /*página de fotos*/
