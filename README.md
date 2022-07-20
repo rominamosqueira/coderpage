@@ -1,1 +1,1 @@
-Proyecto Final Coderhouse, se utilizó Html, Css, Scss y Bootstrap.
+Proyecto Coderhouse, se utilizó Html, Css, Scss y Bootstrap.
