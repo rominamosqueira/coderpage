@@ -5,10 +5,6 @@
   font-family: sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 html {
   overflow-x: hidden;
 }
@@ -21,11 +17,8 @@ ul {
 }
 
 li {
-  border: 2px solid black;
-  width: 150px;
   height: 50px;
   margin: 15px 15px 15px 15px;
-  border-radius: 10%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -44,22 +37,6 @@ a {
   font-size: x-large;
   font-weight: lighter;
   text-decoration: none;
-}
-
-.float {
-  position: fixed;
-  width: 60px;
-  height: 50px;
-  bottom: 30px;
-  right: 40px;
-  color: #079e3e;
-  text-align: center;
-  font-size: 30px;
-  z-index: 100px;
-}
-
-.my-float {
-  margin-top: 16px;
 }
 
 .buttons a {
@@ -86,6 +63,19 @@ a {
   padding: 30px 50px 0 0;
 }
 
+/*wathsapp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 50px;
+  bottom: 20px;
+  right: 10px;
+  color: #079e3e;
+  text-align: center;
+  font-size: 40px;
+  z-index: 999;
+}
+
 /*contacto*/
 #formulario {
   width: 450px;
@@ -98,7 +88,8 @@ a {
   color: white;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
@@ -144,19 +135,11 @@ a:hover {
 }
 
 /*página de fotos*/
-.grid-container {
-  display: grid;
-  gap: 10px;
-  padding: 20px;
-  align-items: center;
-  justify-items: center;
-}
-
 h1 {
   font-weight: 400;
   text-align: center;
   padding: 20px 0;
-  font-size: 40px;
+  font-size: 50px;
   color: black;
 }
 
@@ -233,8 +216,35 @@ h4 {
 }
 
 /*servicios*/
+/*contenedor padre*/
 .row {
-  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  margin: 30px;
+}
+
+/*fondo del contenedor*/
+.col {
+  width: 100%;
+  border-radius: 1em;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+/*titulo de la card*/
+.card {
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+/*parrafo de la card*/
+.card-text {
   text-align: center;
 }
 
