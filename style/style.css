@@ -166,6 +166,7 @@ h1 {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.5s;
 }
 
 .galeria > a {
@@ -240,7 +241,7 @@ h4 {
 
 /*fondo del contenedor*/
 .col {
-  width: 100%;
+  width: 95%;
   border-radius: 1em;
   margin: 0 auto;
   box-sizing: border-box;
@@ -266,10 +267,10 @@ h4 {
     flex-direction: column;
   }
   .contenidos .content-card .card {
-    width: 100%;
+    width: 95%;
     height: 98%;
     overflow: auto;
-    margin: 10px;
+    margin: 10px auto;
     align-items: center;
     flex-direction: column;
     text-align: center;
