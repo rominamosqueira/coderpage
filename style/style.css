@@ -78,7 +78,7 @@ a {
 
 /*contacto*/
 #formulario {
-  width: 400px;
+  width: 300px;
   margin: auto;
   background: #999;
   padding: 10px 20px;
@@ -231,6 +231,7 @@ h4 {
   width: 100%;
   border-radius: 1em;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /*titulo de la card*/
