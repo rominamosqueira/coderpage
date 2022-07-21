@@ -153,7 +153,7 @@ h1 {
 .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  width: 95%;
+  width: 90%;
   margin: auto;
   gap: 13px;
   padding: 40px 0;
