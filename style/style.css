@@ -78,7 +78,7 @@ a {
 
 /*contacto*/
 #formulario {
-  width: 450px;
+  width: 400px;
   margin: auto;
   background: #999;
   padding: 10px 20px;
@@ -230,7 +230,6 @@ h4 {
 .col {
   width: 100%;
   border-radius: 1em;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
   margin: 0 auto;
 }
 
