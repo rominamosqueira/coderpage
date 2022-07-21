@@ -232,6 +232,7 @@ h4 {
   border-radius: 1em;
   margin: 0 auto;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 /*titulo de la card*/
@@ -246,6 +247,7 @@ h4 {
 /*parrafo de la card*/
 .card-text {
   text-align: center;
+  justify-content: center;
 }
 
 /*footer*/
