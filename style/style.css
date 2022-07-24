@@ -16,8 +16,7 @@ ul {
   text-transform: capitalize;
   display: flex;
 }
-
-li {
+ul li {
   height: 50px;
   margin: 15px 15px 15px 15px;
   text-align: center;
@@ -25,19 +24,18 @@ li {
   align-items: center;
   justify-content: center;
 }
-
-p {
-  color: black;
-  font-family: sans-serif;
-  font-size: large;
-}
-
-a {
+ul li a {
   color: black;
   font-family: sans-serif;
   font-size: x-large;
   font-weight: lighter;
   text-decoration: none;
+}
+
+p {
+  color: black;
+  font-family: sans-serif;
+  font-size: large;
 }
 
 .buttons {
