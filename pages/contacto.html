@@ -64,13 +64,16 @@
     <h3 class="subtitulo">¡Empeza a Incrementar las ventas de tu empresa!</h3>
     <hr>
     <span class="linea"></span>
-    <form id="formulario">
-        <h2 class="letra">Contáctame</h2>
-        <input type="text" name="Nombre" placeholder="Nombre"></input>
-        <input type="text" name="Email" placeholder="Email"></input>
-        <input type="text" name="Telefono" placeholder="Teléfono"></input>
-        <textarea name="Mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-        <input class="botton" type="botton" value="ENVIAR" id="botton"></input>
+    <form id="formulario" action="https://formspree.io/f/mpznaara"
+    method="POST">
+        <div class="form__container">
+            <h2 class="form__titulo">Contáctame</h2>
+            <input type="text" name="Nombre" placeholder="Nombre" required></input>
+            <input type="email" name="Email" placeholder="Email" required></input>
+            <input type="text" name="Telefono" placeholder="Teléfono" required></input>
+            <textarea name="message" placeholder="Escriba aqui su mensaje" required></textarea>
+            <input class="botton" type="submit" value="ENVIAR" id="botton"></input>
+        </div>
     </form>
     <hr>
     <!--FOOTER - PIE DE PAGINA-->
